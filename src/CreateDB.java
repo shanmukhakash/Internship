@@ -12,6 +12,7 @@ public class CreateDB {
         {  
         	String dbname = "mulesoft";	
             Connection con = DriverManager.getConnection("jdbc:sqlite:C:/sqlite/"+dbname+".db");  
+            
             if(con != null)
             {  
                 System.out.println("Database "+dbname+" created Successfully!");  
